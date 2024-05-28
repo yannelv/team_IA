@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\t_ia\\t_ia.csproj",
-      "projectName": "t_ia",
-      "projectPath": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\t_ia\\t_ia.csproj",
+      "projectUniqueName": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\team_IA.csproj",
+      "projectName": "team_IA",
+      "projectPath": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\team_IA.csproj",
       "packagesPath": "C:\\Users\\yanne\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\t_ia\\obj\\",
+      "outputPath": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

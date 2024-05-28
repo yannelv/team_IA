@@ -1,4 +1,4 @@
-namespace t_ia.Models;
+namespace team_IA.Models;
 
 public class ErrorViewModel
 {

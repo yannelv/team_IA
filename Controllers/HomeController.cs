@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using t_ia.Models;
+using team_IA.Models;
 
-namespace t_ia.Controllers;
+namespace team_IA.Controllers;
 
 public class HomeController : Controller
 {
