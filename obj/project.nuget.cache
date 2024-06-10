@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "WDFnQ6+7gKcGzQr0Hxk0hcsG1p7rN3IFNpuVeKp+BxEAHMqqzX85FYc4xxjNyfy2sqHkF2xtqj2ZB10y77M/Yg==",
+  "dgSpecHash": "Iplyjp2atVw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\team_IA.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "D:\\Trabajos-Uni\\team_IA\\team_IA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yanne\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\yanne\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\yanne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\yanne\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.20\\microsoft.netcore.app.host.win-x64.7.0.20.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Trabajos-Uni\\team_IA\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
