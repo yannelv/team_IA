@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container-tab{
+    width: 100%;
+    
+}
+
+.ofertas .titulo{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.ofertas{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.tab-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center; 
+    padding-top: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+    position: relative;
+}
+
+
+.tab-item .tab_btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #919191;
+    background: none;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.tab-item .tab_btn.active{
+    color: black;
+}
+
+.content-tab{
+    padding: 20px;
+}
+
+.content-tab .content{
+    display: none;
+    animation: moving .5s ease;
+}
+@keyframes moving{
+    from{transform: translateX(50px);opacity: 0;}
+    top{transform: translateX(50px);opacity: 1;}
+}
+
+.content-tab .content.active{
+    display: block;
+}
+
+.line{
+    position: absolute;
+    top: 50px;
+    left: 310px;
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+
+.gallery {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+}
+ 
+.left-image {
+    flex-shrink: 0;
+}
+ 
+.left-image img {
+    width: 570px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+ 
+.right-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 275px); /* Ajusta el tamaño según tus necesidades */
+    grid-template-rows: repeat(2, 275px); /* Ajusta el tamaño según tus necesidades */
+    gap: 20px;
+}
+ 
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+ 
+.left-image img:hover,
+.grid-item img:hover {
+    transform: scale(1.05);
+}
+
+/* -------------------CONTENEDOS MOVILE------------------------ */
+
+.container-tab-mobile{
+    width: 100%;
+    
+}
+
+.mobile .titulo{
+    padding-top: 20px;;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile{
+    text-align: center;
+    justify-content: center;
+    height: 80vh; /* Establecer la altura al 100% del viewport height */
+    background-size: cover;
+}
+
+.tab-item-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center; 
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    position: relative;
+}
+
+
+.tab-item-mobile .tab_btn_mobile{
+    font-size: 18px;
+    font-weight: 600;
+    color: #919191;
+    background: none;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.tab-item-mobile .tab_btn_mobile.active2{
+    color: black;
+}
+
+.content-tab2{
+    padding: 20px;
+}
+
+.content-tab2 .content2{
+    display: none;
+    animation: moving .5s ease;
+}
+@keyframes moving{
+    from{transform: translateX(50px);opacity: 0;}
+    top{transform: translateX(50px);opacity: 1;}
+}
+
+.content-tab2 .content2.active2{
+    display: block;
+}
+
+
+.line2{
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+
+.gallery2 {
+    padding-top: 430px;
+    justify-content: center;
+    align-items:  flex-end;
+    align-content: flex-end;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}

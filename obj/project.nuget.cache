@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kOgao0zYqJSZb8zUcCpMjbLqYcXitNyuuF23xi8Y2COtysG3HApbQZZ2el9s7y898Q/GLSEeroOUAQ1Egz0CPA==",
+  "dgSpecHash": "xwenY3NdTwg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Franco Sanchez\\Desktop\\USMP 2024.1\\INTELIGENCIA ARTIFICIAL\\PROY\\team_IA\\team_IA.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Trabajos-Uni\\team_IA\\team_IA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yanne\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\yanne\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\yanne\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\yanne\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.31\\microsoft.netcore.app.host.win-x64.6.0.31.nupkg.sha512"
+  ],
   "logs": []
 }
