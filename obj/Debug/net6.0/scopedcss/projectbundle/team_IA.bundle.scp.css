@@ -1,47 +1,48 @@
-﻿.nav-button {
+/* _content/team_IA/Views/Shared/_Layout.cshtml.rz.scp.css */
+.nav-button[b-9zwnxlkbnx] {
   font-size: 14px; /* Tamaño de letra más pequeño */
 }
 
-a.navbar-brand {
+a.navbar-brand[b-9zwnxlkbnx] {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
 
-a {
+a[b-9zwnxlkbnx] {
   color: #0077cc;
 }
 
-.btn-primary {
+.btn-primary[b-9zwnxlkbnx] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active[b-9zwnxlkbnx], .nav-pills .show > .nav-link[b-9zwnxlkbnx] {
   color: #fff;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
-.border-top {
+.border-top[b-9zwnxlkbnx] {
   border-top: 1px solid #e5e5e5;
 }
 
-.border-bottom {
+.border-bottom[b-9zwnxlkbnx] {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.box-shadow {
+.box-shadow[b-9zwnxlkbnx] {
   box-shadow: 0 .25rem .75rem rgba(134, 40, 40, 0.05)
 }
 
-button.accept-policy {
+button.accept-policy[b-9zwnxlkbnx] {
   font-size: 1rem;
   line-height: inherit;
 }
 
-.footer {
+.footer[b-9zwnxlkbnx] {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -50,36 +51,36 @@ button.accept-policy {
   font-size: 12px;
 }
 
-html {
+html[b-9zwnxlkbnx] {
   font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
+  html[b-9zwnxlkbnx] {
     font-size: 14px; 
     font-weight: 
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+.btn:focus[b-9zwnxlkbnx], .btn:active:focus[b-9zwnxlkbnx], .btn-link.nav-link:focus[b-9zwnxlkbnx], .form-control:focus[b-9zwnxlkbnx], .form-check-input:focus[b-9zwnxlkbnx] {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-html {
+html[b-9zwnxlkbnx] {
   position: relative;
   min-height: 100%;
 }
 
-body {
+body[b-9zwnxlkbnx] {
   margin-bottom: 60px;
 }
 
-.footer-images {
+.footer-images[b-9zwnxlkbnx] {
   display: flex;
   gap: 50px; 
 }
 
-.footer-image {
+.footer-image[b-9zwnxlkbnx] {
   width: 10px; 
   height: 10px;
 }
