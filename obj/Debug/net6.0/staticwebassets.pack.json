@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\1ero-los-clientes.jpg",
+      "PackagePath": "staticwebassets\\image\\1ero-los-clientes.jpg"
+    },
+    {
       "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\IMG1.png",
       "PackagePath": "staticwebassets\\image\\IMG1.png"
     },
@@ -73,8 +77,20 @@
       "PackagePath": "staticwebassets\\image\\cel4.png"
     },
     {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\iconosamsung.ico",
+      "PackagePath": "staticwebassets\\image\\iconosamsung.ico"
+    },
+    {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\libro-de-reclamaciones_1.jpg",
+      "PackagePath": "staticwebassets\\image\\libro-de-reclamaciones_1.jpg"
+    },
+    {
       "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\logo-sg.png",
       "PackagePath": "staticwebassets\\image\\logo-sg.png"
+    },
+    {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\qrsamsung_1.jpg",
+      "PackagePath": "staticwebassets\\image\\qrsamsung_1.jpg"
     },
     {
       "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\js\\site.js",
