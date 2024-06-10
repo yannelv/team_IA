@@ -17,6 +17,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\wwwroot\\image\\IMG1.png",
+      "PackagePath": "staticwebassets\\image\\IMG1.png"
+    },
+    {
+      "Id": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\wwwroot\\image\\IMG12.png",
+      "PackagePath": "staticwebassets\\image\\IMG12.png"
+    },
+    {
+      "Id": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\wwwroot\\image\\IMG13.png",
+      "PackagePath": "staticwebassets\\image\\IMG13.png"
+    },
+    {
+      "Id": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\wwwroot\\image\\IMG14.png",
+      "PackagePath": "staticwebassets\\image\\IMG14.png"
+    },
+    {
+      "Id": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\wwwroot\\image\\IMG15.jpg",
+      "PackagePath": "staticwebassets\\image\\IMG15.jpg"
+    },
+    {
       "Id": "C:\\Users\\yanne\\Documents\\GitHub\\team_IA\\wwwroot\\image\\car1.mp4",
       "PackagePath": "staticwebassets\\image\\car1.mp4"
     },
