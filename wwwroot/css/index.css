@@ -133,7 +133,7 @@
 }
 
 .mobile .titulo{
-    padding-top: 10px;;
+    padding-top: 20px;;
     margin-top: 20px;
     align-items: center;
     text-align: center;
@@ -192,10 +192,11 @@
     display: block;
 }
 
+
 .line2{
     position: absolute;
     top: 50px;
-    left: 310px;
+    left: 180px;
     width: 150px;
     height: 5px;
     background-color: black;
@@ -205,12 +206,13 @@
 
 
 .gallery2 {
-    padding: 10px;
+    padding-top: 430px;
     justify-content: center;
-    align-items: center;
-    align-content: center;
+    align-items:  flex-end;
+    align-content: flex-end;
     display: flex;
     gap: 20px;
     width: 100%;
     height: auto;
+    position: relative;
 }

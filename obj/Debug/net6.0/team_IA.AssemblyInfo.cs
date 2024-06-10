@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("team_IA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2835f4f725df21b2a0345aa40769c319250cd3c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1e42280c37fbd517b8578a5d49120a3b5c76bfa")]
 [assembly: System.Reflection.AssemblyProductAttribute("team_IA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("team_IA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
