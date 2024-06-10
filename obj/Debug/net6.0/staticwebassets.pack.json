@@ -57,6 +57,22 @@
       "PackagePath": "staticwebassets\\image\\car5.jpg"
     },
     {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\cel1.png",
+      "PackagePath": "staticwebassets\\image\\cel1.png"
+    },
+    {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\cel2.png",
+      "PackagePath": "staticwebassets\\image\\cel2.png"
+    },
+    {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\cel3.png",
+      "PackagePath": "staticwebassets\\image\\cel3.png"
+    },
+    {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\cel4.png",
+      "PackagePath": "staticwebassets\\image\\cel4.png"
+    },
+    {
       "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\logo-sg.png",
       "PackagePath": "staticwebassets\\image\\logo-sg.png"
     },

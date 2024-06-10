@@ -32,6 +32,7 @@
     position: relative;
 }
 
+
 .tab-item .tab_btn{
     font-size: 18px;
     font-weight: 600;
@@ -122,4 +123,94 @@
 .left-image img:hover,
 .grid-item img:hover {
     transform: scale(1.05);
+}
+
+/* -------------------CONTENEDOS MOVILE------------------------ */
+
+.container-tab-mobile{
+    width: 100%;
+    
+}
+
+.mobile .titulo{
+    padding-top: 10px;;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.mobile{
+    text-align: center;
+    justify-content: center;
+    height: 80vh; /* Establecer la altura al 100% del viewport height */
+    background-size: cover;
+}
+
+.tab-item-mobile{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center; 
+    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    position: relative;
+}
+
+
+.tab-item-mobile .tab_btn_mobile{
+    font-size: 18px;
+    font-weight: 600;
+    color: #919191;
+    background: none;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.tab-item-mobile .tab_btn_mobile.active2{
+    color: black;
+}
+
+.content-tab2{
+    padding: 20px;
+}
+
+.content-tab2 .content2{
+    display: none;
+    animation: moving .5s ease;
+}
+@keyframes moving{
+    from{transform: translateX(50px);opacity: 0;}
+    top{transform: translateX(50px);opacity: 1;}
+}
+
+.content-tab2 .content2.active2{
+    display: block;
+}
+
+.line2{
+    position: absolute;
+    top: 50px;
+    left: 310px;
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+
+.gallery2 {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
 }
