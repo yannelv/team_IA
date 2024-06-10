@@ -3,50 +3,51 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - team_IA</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/team_IA.styles.css" asp-append-version="true" />
+    <link rel="icon" href="~/image/iconosamsung.ico" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
+            <div class="container d-flex justify-content-center">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="/image/logo-sg.png" alt="logo" style="height: 20px;"/> 
+                    <img src="/image/logo-sg.png" alt="logo" style="height: 20px;" /> 
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-center">
+                    <ul class="navbar-nav flex-grow-1 justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Tienda Online</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Tienda Online</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">AI</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">AI</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Móviles</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Móviles</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">TV y Audio</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">TV y Audio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Línea Blanca</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Línea Blanca</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Monitores</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Monitores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Accesorios</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Accesorios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">SmartThings</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">SmartThings</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
                 </div>
@@ -59,11 +60,22 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - team_IA - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+   <footer class="border-top footer text-muted">
+    <div class="container d-flex justify-content-between align-items-center">
+        <div>
+            &copy; Copyright© 1995-2024 Samsung. Todos los derechos reservados.
+            Samsung Electronics Perú S.A.C RUC: 20300263578
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
-    </footer>
+       <div class="footer-images">
+    <img src="~/image/1ero-los-clientes.jpg" alt="Imagen 1" class="footer-image" style="width: 50px; height:50px;">
+    <img src="~/image/libro-de-reclamaciones_1.jpg" alt="Imagen 2" class="footer-image" style="width: 50px; height: 50px;">
+    <img src="~/image/qrsamsung_1.jpg" alt="Imagen 3" class="footer-image" style="width: 50px; height: 50px;">
+</div>
+
+    </div>
+</footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

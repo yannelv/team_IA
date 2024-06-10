@@ -1,6 +1,7 @@
 /* _content/team_IA/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+.nav-button[b-9zwnxlkbnx] {
+  font-size: 14px; /* Tamaño de letra más pequeño */
+}
 
 a.navbar-brand[b-9zwnxlkbnx] {
   white-space: normal;
@@ -27,12 +28,13 @@ a[b-9zwnxlkbnx] {
 .border-top[b-9zwnxlkbnx] {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom[b-9zwnxlkbnx] {
   border-bottom: 1px solid #e5e5e5;
 }
 
 .box-shadow[b-9zwnxlkbnx] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 .25rem .75rem rgba(134, 40, 40, 0.05)
 }
 
 button.accept-policy[b-9zwnxlkbnx] {
@@ -46,4 +48,39 @@ button.accept-policy[b-9zwnxlkbnx] {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+  font-size: 12px;
+}
+
+html[b-9zwnxlkbnx] {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html[b-9zwnxlkbnx] {
+    font-size: 14px; 
+    
+  }
+}
+
+.btn:focus[b-9zwnxlkbnx], .btn:active:focus[b-9zwnxlkbnx], .btn-link.nav-link:focus[b-9zwnxlkbnx], .form-control:focus[b-9zwnxlkbnx], .form-check-input:focus[b-9zwnxlkbnx] {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html[b-9zwnxlkbnx] {
+  position: relative;
+  min-height: 100%;
+}
+
+body[b-9zwnxlkbnx] {
+  margin-bottom: 60px;
+}
+
+.footer-images[b-9zwnxlkbnx] {
+  display: flex;
+  gap: 50px; 
+}
+
+.footer-image[b-9zwnxlkbnx] {
+  width: 10px; 
+  height: 10px;
 }
