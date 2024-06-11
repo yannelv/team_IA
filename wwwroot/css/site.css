@@ -68,59 +68,92 @@ body {
 
 
 
-         /* Estilo del contenedor del menú */
-         .dropdown {
-          position: relative;
-          display: inline-block;
-      }
+/* Estilo del contenedor del menú */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-      /* Estilo del contenido del menú */
-      .dropdown-content {
-          display: none;
-          position: absolute;
-          background-color: white;
-          width: 800px; /* Aumenta el ancho para distribuir horizontalmente */
-          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-          z-index: 1;
-          padding: 20px;
-          border: 1px solid #ddd;
-          font-size: 14px; /* Ajusta el tamaño de fuente */
-      }
+/* Estilo del contenido del menú */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 800px;
+  /* Aumenta el ancho para distribuir horizontalmente */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  /* Ajusta el tamaño de fuente */
+}
 
-      .dropdown-content h4 {
-        font-size: 14px; /* Ajusta el tamaño de los títulos */
-    }
-
-
-      /* Mostrar el menú al pasar el cursor */
-      .dropdown:hover .dropdown-content {
-          display: block;
-      }
-
-      /* Estilo de las columnas del menú */
-      .column {
-          float: left;
-          width: 25%;
-          padding: 10px;
-      }
-
-      /* Limpiar floats después de las columnas */
-      .row:after {
-          content: "";
-          display: table;
-          clear: both;
-      }
-
-      /* Estilo de los enlaces del menú */
-      .dropdown-content a {
-          color: black;
-          padding: 8px 0; /* Ajuste de padding para más espacio vertical */
-          text-decoration: none;
-          display: block;
-      }
-
-      .dropdown-content a:hover {
-          background-color: #ddd;
-      }
+.dropdown-content h4 {
+  font-size: 14px;
+  /* Ajusta el tamaño de los títulos */
+}
 
 
+/* Mostrar el menú al pasar el cursor */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Estilo de las columnas del menú */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Limpiar floats después de las columnas */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Estilo de los enlaces del menú */
+.dropdown-content a {
+  color: black;
+  padding: 8px 0;
+  /* Ajuste de padding para más espacio vertical */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0084ff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.chat-button:hover {
+  background-color: #006bbf;
+}
+
+.chatbot-iframe {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 350px;
+  height: 430px;
+  border: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 999;
+}

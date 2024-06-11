@@ -144,6 +144,14 @@
         </main>
     </div>
 
+    <button class="chat-button" onclick="toggleChatbot()">💬</button>
+
+    <!-- Iframe del chatbot -->
+    <iframe class="chatbot-iframe"
+        src="https://console.dialogflow.com/api-client/demo/embedded/6e3643ff-4be1-4418-8412-7812e444a4e0"
+        allow="microphone;"></iframe>
+
+
     <footer class="border-top footer text-muted">
         <div class="container d-flex justify-content-between align-items-center">
             <div>
@@ -163,9 +171,20 @@
         </div>
     </footer>
 
+    <script>
+        function toggleChatbot() {
+            var iframe = document.querySelector('.chatbot-iframe');
+            if (iframe.style.display === 'none' || iframe.style.display === '') {
+                iframe.style.display = 'block';
+            } else {
+                iframe.style.display = 'none';
+            }
+        }
+    </script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
