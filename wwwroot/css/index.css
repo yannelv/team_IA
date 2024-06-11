@@ -218,6 +218,45 @@
     position: relative;
 }
 
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 10;
+    max-width: 40%; 
+
+}
+
+.carousel-caption h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.5em;
+}
+
+.carousel-caption .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+
+.text-black {
+    color: black;
+}
 /* -------------------CONTENEDOR TV------------------------ */
 
 .container-tab-tv{

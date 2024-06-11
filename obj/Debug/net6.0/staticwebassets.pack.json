@@ -41,6 +41,22 @@
       "PackagePath": "staticwebassets\\image\\IMG15.jpg"
     },
     {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\abajo1.png",
+      "PackagePath": "staticwebassets\\image\\abajo1.png"
+    },
+    {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\abajo2.png",
+      "PackagePath": "staticwebassets\\image\\abajo2.png"
+    },
+    {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\abajo3.png",
+      "PackagePath": "staticwebassets\\image\\abajo3.png"
+    },
+    {
+      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\abajo4.png",
+      "PackagePath": "staticwebassets\\image\\abajo4.png"
+    },
+    {
       "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\av1.png",
       "PackagePath": "staticwebassets\\image\\av1.png"
     },
