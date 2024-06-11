@@ -107,29 +107,22 @@
 
     ///////////////////////
 
-    const slider = document.querySelector('.slider');
-    const prevBtn = document.querySelector('.prev-btn');
-    const nextBtn = document.querySelector('.next-btn');
-    const cardWidth = document.querySelector('.card').offsetWidth;
-    let currentPosition = 0;
-    
-    prevBtn.addEventListener('click', () => {
-      currentPosition += cardWidth + 20;
-      if (currentPosition > 0) {
-        currentPosition = 0;
-      }
-      slider.style.transform = `translateX(${currentPosition}px)`;
-    });
-    
-    nextBtn.addEventListener('click', () => {
-      currentPosition -= cardWidth + 20;
-      const sliderWidth = slider.offsetWidth;
-      const cardsWidth = slider.scrollWidth;
-      if (sliderWidth - Math.abs(currentPosition) > cardsWidth) {
-        currentPosition = -(cardsWidth - sliderWidth);
-      }
-      slider.style.transform = `translateX(${currentPosition}px)`;
-    });
+    const colorOptions = document.querySelectorAll('.color-option');
+        const sizeOptions = document.querySelectorAll('.size-option');
+
+        colorOptions.forEach(option => {
+            option.addEventListener('click', () => {
+                colorOptions.forEach(o => o.classList.remove('activecard'));
+                option.classList.add('activecard');
+            });
+        });
+
+        sizeOptions.forEach(option => {
+            option.addEventListener('click', () => {
+                sizeOptions.forEach(o => o.classList.remove('activecard'));
+                option.classList.add('activecard');
+            });
+        });
     
 
 
