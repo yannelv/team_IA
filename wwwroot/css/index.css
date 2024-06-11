@@ -775,11 +775,26 @@
     margin-bottom: 20px;
   }
 
-  .button {
+
+  input[type="text"] {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+  .btnsearch {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
+    margin: 0 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid #000000;
     border-radius: 5px;
     cursor: pointer;
+  }
+
+  .buscar{
+    text-align: center;
+    align-items: center;
   }
