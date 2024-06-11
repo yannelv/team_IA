@@ -93,22 +93,6 @@
       "PackagePath": "staticwebassets\\image\\qrsamsung_1.jpg"
     },
     {
-      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\tv1.png",
-      "PackagePath": "staticwebassets\\image\\tv1.png"
-    },
-    {
-      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\tv2.png",
-      "PackagePath": "staticwebassets\\image\\tv2.png"
-    },
-    {
-      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\tv3.png",
-      "PackagePath": "staticwebassets\\image\\tv3.png"
-    },
-    {
-      "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\image\\tv4.png",
-      "PackagePath": "staticwebassets\\image\\tv4.png"
-    },
-    {
       "Id": "D:\\Trabajos-Uni\\team_IA\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
