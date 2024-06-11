@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,46 +9,129 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/team_IA.styles.css" asp-append-version="true" />
     <link rel="icon" href="~/image/iconosamsung.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+
+
+
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container d-flex justify-content-center">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="/image/logo-sg.png" alt="logo" style="height: 20px;" /> 
+                    <img src="/image/logo-sg.png" alt="logo" style="height: 20px;" />
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-center">
-                    <ul class="navbar-nav flex-grow-1 justify-content-center">
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between align-items-center">
+                    <ul class="navbar-nav navbar-nav-left flex-grow-1 d-flex">
+
+                        <ul class="nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-dark nav-button" href="#"> <strong>Tienda Online</strong></a>
+                                <div class="dropdown-content">
+                                    <div class="row">
+                                        <div class="column">
+                                            <h4>Ofertas destacadas</h4>
+                                            <a href="#">Todas las ofertas</a>
+                                            <a href="#">Live</a>
+                                            <a href="#">Zona Outlet</a>
+                                            <a href="#">Preventa Samsung AI TV</a>
+                                            <a href="#">Combos TV</a>
+                                            <a href="#">Arma tu combo</a>
+                                            <a href="#">Ofertas Móviles</a>
+                                            <a href="#">Ofertas TV & Audio</a>
+                                            <a href="#">Ofertas Línea Blanca</a>
+                                            <a href="#">Ofertas Monitores</a>
+                                            <a href="#">Combo Móviles</a>
+                                        </div>
+                                        <div class="column">
+                                            <h4>Nuevos y destacados</h4>
+                                            <a href="#">Game Portal</a>
+                                            <a href="#">Pet Lovers</a>
+                                            <a href="#">Samsung Shop APP</a>
+                                            <a href="#">Samsung Health</a>
+                                            <a href="#">Tecnología AI</a>
+                                            <a href="#">SmartThings</a>
+                                            <a href="#">Galaxy eCard A55/A35</a>
+                                            <a href="#">Samsung DeX</a>
+                                        </div>
+                                        <div class="column">
+                                            <h4>Elige Samsung.com</h4>
+                                            <a href="#">Members VIP</a>
+                                            <a href="#">Beneficios</a>
+                                            <a href="#">Samsung Rewards</a>
+                                            <a href="#">Trade-In : Plan Canje Mobile</a>
+                                            <a href="#">Samsung Care +</a>
+                                            <a href="#">Trade-Up : Ecocanje TV & Línea blanca</a>
+                                            <a href="#">Instalación Premium</a>
+                                            <a href="#">Cuotas sin intereses</a>
+                                            <a href="#">Recoge en tienda</a>
+                                        </div>
+                                        <div class="column">
+                                            <h4>Beneficios</h4>
+                                            <a href="#">Ofertas exclusivas para estudiantes</a>
+                                            <a href="#">Ofertas para empleados corporativos</a>
+                                            <a href="#">Ofertas para empresas</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Tienda Online</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index">
+                                <strong>AI</strong>
+                            </a>
+                        </li>
+
+
+
+
+
+                        <li class="nav-item"><a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index"><strong>Móviles</strong></a></li>
+                        <li class="nav-item"><a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index"><strong>TV y Audio</strong></a></li>
+                        <li class="nav-item"><a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index"><strong>Línea Blanca</strong></a></li>
+                        <li class="nav-item"><a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index"><strong>Monitores</strong></a></li>
+                        <li class="nav-item"><a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index"><strong>Accesorios</strong></a></li>
+                        <li class="nav-item"><a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index"><strong>SmartThings</strong></a></li>
+                    </ul>
+                    <ul class="navbar-nav navbar-nav-right d-flex">
+                        <li class="nav-item support-enterprise"><a class="nav-link text-dark nav-button" asp-area=""
+                                asp-controller="Home" asp-action="Privacy"><strong>Soporte</strong></a></li>
+                        <li class="nav-item support-enterprise"><a class="nav-link text-dark nav-button" asp-area=""
+                                asp-controller="Home" asp-action="Index"><strong>Para Empresas</strong></a></li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index">
+                                <span class="material-icons-outlined">search</span>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">AI</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index">
+                                <span class="material-icons-outlined">shopping_cart</span>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Móviles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">TV y Audio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Línea Blanca</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Monitores</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">Accesorios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Index">SmartThings</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark nav-button" asp-area="" asp-controller="Home"
+                                asp-action="Index">
+                                <span class="material-icons-outlined">person</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -60,25 +144,30 @@
         </main>
     </div>
 
-   <footer class="border-top footer text-muted">
-    <div class="container d-flex justify-content-between align-items-center">
-        <div>
-            &copy; Copyright© 1995-2024 Samsung. Todos los derechos reservados.
-            Samsung Electronics Perú S.A.C RUC: 20300263578
-            <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-       <div class="footer-images">
-    <img src="~/image/1ero-los-clientes.jpg" alt="Imagen 1" class="footer-image" style="width: 50px; height:50px;">
-    <img src="~/image/libro-de-reclamaciones_1.jpg" alt="Imagen 2" class="footer-image" style="width: 50px; height: 50px;">
-    <img src="~/image/qrsamsung_1.jpg" alt="Imagen 3" class="footer-image" style="width: 50px; height: 50px;">
-</div>
+    <footer class="border-top footer text-muted">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                &copy; Copyright© 1995-2024 Samsung. Todos los derechos reservados.
+                Samsung Electronics Perú S.A.C RUC: 20300263578
+                <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+            <div class="footer-images">
+                <img src="~/image/1ero-los-clientes.jpg" alt="Imagen 1" class="footer-image"
+                    style="width: 50px; height:50px;">
+                <img src="~/image/libro-de-reclamaciones_1.jpg" alt="Imagen 2" class="footer-image"
+                    style="width: 50px; height: 50px;">
+                <img src="~/image/qrsamsung_1.jpg" alt="Imagen 3" class="footer-image"
+                    style="width: 50px; height: 50px;">
+            </div>
 
-    </div>
-</footer>
+        </div>
+    </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
+
 </html>

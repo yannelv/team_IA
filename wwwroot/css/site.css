@@ -10,7 +10,11 @@ html {
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
@@ -22,3 +26,101 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbar-nav-left {
+  margin-left: 36px;
+  /* Ajusta según tus necesidades */
+  align-items: center;
+  /* Alinea verticalmente los elementos */
+}
+
+.navbar-nav-right {
+  margin-right: -10px;
+  /* Ajusta según tus necesidades */
+  margin-left: auto;
+  /* Empuja los elementos a la derecha */
+  align-items: center;
+  /* Alinea verticalmente los elementos */
+}
+
+.nav-link {
+  font-size: 0.8em;
+  /* Tamaño de la letra reducido */
+  display: flex;
+  align-items: center;
+  /* Alinea verticalmente el contenido del enlace */
+}
+
+.nav-item+.nav-item {
+  margin-left: 1px;
+  /* Ajusta este valor para separar los elementos de la derecha */
+}
+
+.support-enterprise {
+  margin-right: 40px;
+  /* Ajusta este valor para separar los textos de los iconos */
+}
+
+.support-enterprise+.support-enterprise {
+  margin-left: -30px;
+  /* Elimina el margen izquierdo entre "Soporte" y "Para Empresas" */
+}
+
+
+
+         /* Estilo del contenedor del menú */
+         .dropdown {
+          position: relative;
+          display: inline-block;
+      }
+
+      /* Estilo del contenido del menú */
+      .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: white;
+          width: 800px; /* Aumenta el ancho para distribuir horizontalmente */
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+          padding: 20px;
+          border: 1px solid #ddd;
+          font-size: 14px; /* Ajusta el tamaño de fuente */
+      }
+
+      .dropdown-content h4 {
+        font-size: 14px; /* Ajusta el tamaño de los títulos */
+    }
+
+
+      /* Mostrar el menú al pasar el cursor */
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+
+      /* Estilo de las columnas del menú */
+      .column {
+          float: left;
+          width: 25%;
+          padding: 10px;
+      }
+
+      /* Limpiar floats después de las columnas */
+      .row:after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+
+      /* Estilo de los enlaces del menú */
+      .dropdown-content a {
+          color: black;
+          padding: 8px 0; /* Ajuste de padding para más espacio vertical */
+          text-decoration: none;
+          display: block;
+      }
+
+      .dropdown-content a:hover {
+          background-color: #ddd;
+      }
+
+
