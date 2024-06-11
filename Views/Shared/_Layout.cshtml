@@ -11,7 +11,10 @@
     <link rel="icon" href="~/image/iconosamsung.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 
 
@@ -143,29 +146,28 @@
             @RenderBody()
         </main>
     </div>
-
+    <!-- Botón flotante para abrir el chatbot -->
     <button class="chat-button" onclick="toggleChatbot()">💬</button>
 
     <!-- Iframe del chatbot -->
     <iframe class="chatbot-iframe"
         src="https://console.dialogflow.com/api-client/demo/embedded/6e3643ff-4be1-4418-8412-7812e444a4e0"
-        allow="microphone;"></iframe>
-
+        allow="microphone;" onload="styleChatbotHeader()"></iframe>
 
     <footer class="border-top footer text-muted">
         <div class="container d-flex justify-content-between align-items-center">
             <div>
                 &copy; Copyright© 1995-2024 Samsung. Todos los derechos reservados.
                 Samsung Electronics Perú S.A.C RUC: 20300263578
-                <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                
             </div>
             <div class="footer-images">
                 <img src="~/image/1ero-los-clientes.jpg" alt="Imagen 1" class="footer-image"
-                    style="width: 50px; height:50px;">
+                    style="width: 90px; height:56">
                 <img src="~/image/libro-de-reclamaciones_1.jpg" alt="Imagen 2" class="footer-image"
-                    style="width: 50px; height: 50px;">
+                    style="width: 90px; height: 60px;">
                 <img src="~/image/qrsamsung_1.jpg" alt="Imagen 3" class="footer-image"
-                    style="width: 50px; height: 50px;">
+                    style="width: 200px; height: 60px;">
             </div>
 
         </div>
@@ -180,11 +182,22 @@
                 iframe.style.display = 'none';
             }
         }
+
+        function styleChatbotHeader() {
+            var iframe = document.querySelector('.chatbot-iframe');
+            var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+
+            var header = iframeDocument.querySelector('.header-class'); // Cambia '.header-class' a la clase real del encabezado
+            if (header) {
+                header.style.backgroundColor = '#FF5733'; // Cambia el color aquí
+                header.style.color = 'white'; // Si también quieres cambiar el color del texto
+            }
+        }
     </script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    
+
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
