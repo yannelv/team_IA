@@ -144,6 +144,7 @@
     justify-content: center;
     height: 80vh; /* Establecer la altura al 100% del viewport height */
     background-size: cover;
+    transition: background-image 0.5s ease;
 }
 
 .tab-item-mobile{
